@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Google Sans', sans-serif;
+}
+
+body {
+  background-color: #7a7adb; /* Purple background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 350px;
+  background-color: #232252; /* Dark bottom color */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  text-align: center;
+  color: white;
+}
+
+.card-top {
+  background-color: #f3f0ff; /* Light top color */
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.profile-image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid #232252;
+  margin-bottom: -65px; /* Pulls image down to overlap */
+  background: white;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-bottom {
+  padding: 80px 20px 30px;
+}
+
+.location {
+  font-size: 0.8rem;
+  color: #b3b3e6;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 1px solid #3e3d7a;
+  background: #1b1b42;
+  color: white;
+  cursor: pointer;
+}
+
+.skills-section {
+  text-align: left;
+  border-top: 1px solid #3e3d7a;
+  padding-top: 20px;
+}
+
+.skills-section h3 {
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0.75rem;
+  color: #b3b3e6;
+}
+
+h2 {
+  text-transform: uppercase;
+}
